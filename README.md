@@ -6,15 +6,21 @@ NucleiSegmentation.py is a bare minimum TensorFlow implementation of a convoluti
 What this file includes:
 
 -Input pipeline using Tensorflow Dataset API
+
 -Convolutional neural network
+
 -Basic loss function/gradient descent optimizer
+
 -Basic execution loop
 
 What this file does not include and has to be implemented:
 
 -A proper reader for the mask files (current one assumes one mask per image, this is not the case)
+
 -Image preprocessing in image_import and mask_import functions (add blur, rotate, etc...)
+
 -Test datasets and iterators (for images and masks) to test accuracy.
+
 -Tensorboard!!!
 
 
